@@ -1,45 +1,36 @@
 'use strict';
-const os = require('os');
 const publicIp = require('public-ip');
+const internalIp = require('internal-ip');
+const defaultGateway = require('default-gateway');
 const alfy = require('alfy');
 
 const promises = [];
 const output = [];
-const networkInfo = os.networkInterfaces();
+const family = process.env.family;
 
-function getExternalIp() {
-	return publicIp.v4().then(ip => addOutput(ip, 'Public IP'));
-}
-
-function addOutput(title, subtitle) {
+function addOutput(ip, type) {
 	output.push({
-		title: title,
+		title: `${type}: ${ip}`,
 		subtitle: '',
-		arg: title,
-		mods: {
-			cmd: {
-				subtitle: subtitle
-			}
-		},
+		arg: ip,
 		icon: {
-			path: 'icon.png'
+			path: `${type}.png`
 		},
 		text: {
-			copy: title,
-			largetype: title
+			copy: ip,
+			largetype: ip
 		}
 	});
 }
 
-promises.push(getExternalIp());
-
-for (const [key, value] of Object.entries(networkInfo)) {
-	value.forEach(obj => {
-		if (obj['family'] === 'IPv4' && key !== 'lo0') {
-			addOutput(obj['address'], `${key} ${obj['mac']}`);
-		}
-	});
+if (family === 'IPv6') {
+	promises.push(publicIp.v6().then(ip => addOutput(ip, 'Public')));
+	promises.push(internalIp.v6().then(ip => addOutput(ip, 'Local')));
+	promises.push(defaultGateway.v6().then(ip => addOutput(ip.gateway, 'Gateway')));
+} else {
+	promises.push(publicIp.v4().then(ip => addOutput(ip, 'Public')));
+	promises.push(internalIp.v4().then(ip => addOutput(ip, 'Local')));
+	promises.push(defaultGateway.v4().then(ip => addOutput(ip.gateway, 'Gateway')));
 }
 
 Promise.all(promises).then(() => alfy.output(output));
-

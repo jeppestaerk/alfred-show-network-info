@@ -8,6 +8,32 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>58067D65-3B66-4B2B-941A-3CCA70C85D8A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B8F1857C-E50E-4BFD-9484-B0454321C4E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AE0637BB-BB1B-49BA-BBFE-30973642CC2D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>58067D65-3B66-4B2B-941A-3CCA70C85D8A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B8F1857C-E50E-4BFD-9484-B0454321C4E9</key>
 		<array>
 			<dict>
@@ -69,7 +95,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>sni</string>
+				<string>ip4</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -89,7 +115,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Networks Info</string>
+				<string>Get Network Info</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -137,6 +163,45 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ip6</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Get IPv6 network info</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AE0637BB-BB1B-49BA-BBFE-30973642CC2D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>variables</key>
+				<dict>
+					<key>family</key>
+					<string>IPv6</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>58067D65-3B66-4B2B-941A-3CCA70C85D8A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -160,35 +225,56 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>6B0F37A8-6485-42E0-B2D6-A53E87F95113</key>
-		<dict>
-			<key>xpos</key>
-			<integer>380</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>B8F1857C-E50E-4BFD-9484-B0454321C4E9</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
-		<key>C6DD40F6-DDD0-46EF-BEF9-0A218C721A13</key>
+		<key>58067D65-3B66-4B2B-941A-3CCA70C85D8A</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>70</integer>
+		</dict>
+		<key>6B0F37A8-6485-42E0-B2D6-A53E87F95113</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>AE0637BB-BB1B-49BA-BBFE-30973642CC2D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>B8F1857C-E50E-4BFD-9484-B0454321C4E9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>C6DD40F6-DDD0-46EF-BEF9-0A218C721A13</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>40</integer>
 		</dict>
 		<key>CBC78470-CA30-4108-924E-B2C496328481</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>630</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>40</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>family</key>
+		<string>IPv4</string>
+	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string>https://github.com/jeppestaerk/alfred-show-network-info#readme</string>
 </dict>
