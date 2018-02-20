@@ -14,12 +14,13 @@ $ npm install --global alfred-show-network-info
 
 ## Usage
 
-In Alfred, type `ip4`, <kbd>Enter</kbd>, and your query.
+In Alfred, type `ip4` or `ip6`, <kbd>Enter</kbd>
 
 
 ## License
 
 MIT © [Jeppe Stærk](https://staerk.io)
+
 
 ## Credits
 
@@ -31,4 +32,5 @@ MIT © [Jeppe Stærk](https://staerk.io)
 - [default-gateway](https://github.com/silverwind/default-gateway) made by [silverwind](https://silverwind.io/) is licensed by [BSD](https://github.com/silverwind/default-gateway/blob/master/LICENSE)
 
 ### Graphics
+
 - Icons made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/)

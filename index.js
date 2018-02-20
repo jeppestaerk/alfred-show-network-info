@@ -24,13 +24,13 @@ function addOutput(ip, type) {
 }
 
 if (family === 'IPv6') {
-	promises.push(publicIp.v6().then(ip => addOutput(ip, 'Public')));
-	promises.push(internalIp.v6().then(ip => addOutput(ip, 'Local')));
-	promises.push(defaultGateway.v6().then(ip => addOutput(ip.gateway, 'Gateway')));
+	promises.push(publicIp.v6().then(ip => addOutput(ip, 'Public')).catch(() => addOutput('IPv6 not found', 'Public')));
+	promises.push(internalIp.v6().then(ip => addOutput(ip, 'Local')).catch(() => addOutput('IPv6 not found', 'Local')));
+	promises.push(defaultGateway.v6().then(ip => addOutput(ip.gateway, 'Gateway')).catch(() => addOutput('IPv6 not found', 'Gateway')));
 } else {
-	promises.push(publicIp.v4().then(ip => addOutput(ip, 'Public')));
-	promises.push(internalIp.v4().then(ip => addOutput(ip, 'Local')));
-	promises.push(defaultGateway.v4().then(ip => addOutput(ip.gateway, 'Gateway')));
+	promises.push(publicIp.v4().then(ip => addOutput(ip, 'Public')).catch(() => addOutput('IPv4 not found', 'Public')));
+	promises.push(internalIp.v4().then(ip => addOutput(ip, 'Local')).catch(() => addOutput('IPv4 not found', 'Local')));
+	promises.push(defaultGateway.v4().then(ip => addOutput(ip.gateway, 'Gateway')).catch(() => addOutput('IPv4 not found', 'Gateway')));
 }
 
 Promise.all(promises).then(() => alfy.output(output));
