@@ -26,10 +26,10 @@ MIT © [Jeppe Stærk](https://staerk.io)
 
 ### Modules
 
-- [alfy](https://github.com/sindresorhus/alfy) made by @sindresorhus [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/alfy/blob/master/license)
-- [internal-ip](https://github.com/sindresorhus/internal-ip) made by @sindresorhus [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/internal-ip/blob/master/license)
-- [public-ip](https://github.com/sindresorhus/public-ip) made by @sindresorhus [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/public-ip/blob/master/license)
-- [default-gateway](https://github.com/silverwind/default-gateway) made by @silverwind [(https://silverwind.io/)](https://silverwind.io/) is licensed by [BSD](https://github.com/silverwind/default-gateway/blob/master/LICENSE)
+- [alfy](https://github.com/sindresorhus/alfy) made by [sindresorhus](https://github.com/sindresorhus) [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/alfy/blob/master/license)
+- [internal-ip](https://github.com/sindresorhus/internal-ip) made by [sindresorhus](https://github.com/sindresorhus) [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/internal-ip/blob/master/license)
+- [public-ip](https://github.com/sindresorhus/public-ip) made by [sindresorhus](https://github.com/sindresorhus) [(https://sindresorhus.com/)](https://sindresorhus.com/) is licensed by [MIT](https://github.com/sindresorhus/public-ip/blob/master/license)
+- [default-gateway](https://github.com/silverwind/default-gateway) made by [silverwind](https://github.com/silverwind) [(https://silverwind.io/)](https://silverwind.io/) is licensed by [BSD](https://github.com/silverwind/default-gateway/blob/master/LICENSE)
 
 ### Graphics
 
