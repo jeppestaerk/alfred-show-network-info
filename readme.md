@@ -1,10 +1,12 @@
+<p align="center"><img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/icon.png" width="64" ></p>
+
 # alfred-show-network-info 
 
 > Alfred 3 workflow to see network info and discover local devices
 
 [![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
-<img src="https://github.com/jeppestaerk/alfred-show-network-info/blob/master/preview.png" width="888" >
+<img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.png" width="888">
 
 
 ## Install
@@ -65,6 +67,3 @@ Please feel free to create a PR and/or make a code review!
 ## License
 
 MIT © [Jeppe Stærk](https://staerk.io)
-
-
-<p align="center"><img src="https://github.com/jeppestaerk/alfred-show-network-info/blob/master/icon.png" width="64" ></p>
