@@ -14,7 +14,7 @@ function addOutput(title, subtitle, arg, icon, action) {
 		subtitle: subtitle,
 		arg: arg,
 		icon: {
-			path: `media/${icon}.png`
+			path: `icons/${icon}.png`
 		},
 		variables: {
 			action: action
@@ -44,7 +44,7 @@ function addIPOutput(type, ip, name, mac) {
 			}
 		},
 		icon: {
-			path: `media/${type}.png`
+			path: `icons/${type}.png`
 		},
 		text: {
 			copy: ip,

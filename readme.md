@@ -1,5 +1,3 @@
-<p align="center"><img src="https://github.com/jeppestaerk/alfred-show-network-info/blob/master/icon.png" width="64" ></p>
-
 # alfred-show-network-info 
 
 > Alfred 3 workflow to see network info and discover local devices
@@ -48,6 +46,7 @@ Please feel free to create a PR and/or make a code review!
 - [ ] Spread it to the public on alfred forums ect.
 - [ ] *Your idea here*
 
+
 ## Credits
 
 ### Modules
@@ -66,3 +65,6 @@ Please feel free to create a PR and/or make a code review!
 ## License
 
 MIT © [Jeppe Stærk](https://staerk.io)
+
+
+<p align="center"><img src="https://github.com/jeppestaerk/alfred-show-network-info/blob/master/icon.png" width="64" ></p>
