@@ -2,7 +2,7 @@
 
 > See your networks info in alfred
 
-<img src="preview.png" width="600">
+<img src="preview.png" width="888">
 
 
 ## Install
@@ -17,7 +17,7 @@ $ npm install --global alfred-show-network-info
 ## Highlights
 
 - See own local-, public-, and gateway ip address.
-- Scan and list all local devices.
+- Scan and list all devices on local network.
 - Copy ip to clipboard.
 - Open ip in browser.
 - Connect to ip via ssh.
