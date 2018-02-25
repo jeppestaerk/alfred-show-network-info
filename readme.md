@@ -1,9 +1,10 @@
 <p align="center"><img src="icon.png" width="64" ></p>
 
 # alfred-show-network-info 
-[![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
 > Alfred 3 workflow to see network info and discover local devices
+
+[![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
 <img src="media/preview.png" width="888" >
 
@@ -39,8 +40,6 @@ In Alfred, type `ip4`, <kbd>⏎</kbd>
 
 Please feel free to create a PR and/or make a code review!
 
-Repository: [https://github.com/jeppestaerk/alfred-show-network-stats](https://github.com/jeppestaerk/alfred-show-network-stats)
-
 
 ## To do
 
@@ -67,4 +66,3 @@ Repository: [https://github.com/jeppestaerk/alfred-show-network-stats](https://g
 ## License
 
 MIT © [Jeppe Stærk](https://staerk.io)
-
