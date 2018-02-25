@@ -1,8 +1,10 @@
+<p align="center"><img src="icon.png" /></p>
+
 # alfred-show-network-info [![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
 > Alfred 3 workflow to see network info and local devices
 
-<img src="preview.png" width="888">
+<img src="media/preview.png" width="888" />
 
 
 ## Install
@@ -16,7 +18,7 @@ $ npm install --global alfred-show-network-info
 
 ## Highlights
 
-- See own local-, public-, and gateway ip address.
+- See local-, public-, and gateway ip address.
 - Scan and list all devices on local network.
 - Copy ip to clipboard.
 - Open ip in browser.
@@ -26,7 +28,7 @@ $ npm install --global alfred-show-network-info
 
 ## Usage
 
-In Alfred, type `ip4`, <kbd>Enter</kbd>
+In Alfred, type `ip4`, <kbd>⏎</kbd>
 - press <kbd>⏎</kbd> to copy a ip address.
 - press <kbd>⌘</kbd> + <kbd>⏎</kbd> to open ip address in browser.
 - press <kbd>⌥</kbd> + <kbd>⏎</kbd> to connect to ip address via ssh.
@@ -35,14 +37,15 @@ In Alfred, type `ip4`, <kbd>Enter</kbd>
 ## Contributions
 
 Please feel free to create a PR and/or make a code review!
+Repository: [https://github.com/jeppestaerk/alfred-show-network-stats](https://github.com/jeppestaerk/alfred-show-network-stats)
 
 
 ## To do
 
-- [ ] Find better and more suitable icons
+- [x] Find better and more suitable icons
 - [ ] Make a presentation gif for readme
 - [ ] Spread it to the public on alfred forums ect.
-
+- [ ] *Your idea here*
 
 ## Credits
 

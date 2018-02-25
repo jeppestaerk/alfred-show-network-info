@@ -1,6 +1,6 @@
 {
   "name": "alfred-show-network-info",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Alfred 3 workflow to see network info and local devices",
   "license": "MIT",
   "repository": "jeppestaerk/alfred-show-network-stats",
@@ -20,9 +20,7 @@
     "index.js",
     "icon.png",
     "info.plist",
-    "Gateway.png",
-    "Local.png",
-    "Public.png"
+    "media/*.png"
   ],
   "keywords": [
     "alfred",
@@ -33,10 +31,10 @@
     "local-ip",
     "public-ip",
     "gateway-ip",
-    "local-devices-ip"
+    "network-discovery"
   ],
   "dependencies": {
-    "alfy": "^0.6.0",
+    "alfy": "^0.7.0",
     "default-gateway": "^2.7.0",
     "internal-ip": "^3.0.1",
     "local-devices": "^1.0.5",
