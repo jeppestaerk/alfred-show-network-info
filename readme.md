@@ -4,7 +4,7 @@
 
 [![Travis](https://img.shields.io/travis/jeppestaerk/alfred-show-network-info/master.svg?style=flat-square&label=build%20status)](https://travis-ci.org/jeppestaerk/alfred-show-network-info) [![npm](https://img.shields.io/npm/dt/alfred-show-network-info.svg?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/alfred-show-network-info) [![Github](https://img.shields.io/github/downloads/jeppestaerk/alfred-show-network-info/total.svg?style=flat-square&label=github%20downloads)](https://github.com/jeppestaerk/alfred-show-network-info/releases/latest)
 
-<img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.png" width="888">
+<img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.png">
 
 
 ## Install
@@ -34,6 +34,8 @@ In Alfred, type `ip4`, <kbd>⏎</kbd>
 - press <kbd>⏎</kbd> to copy a ip address.
 - press <kbd>⌘</kbd> + <kbd>⏎</kbd> to open ip address in browser.
 - press <kbd>⌥</kbd> + <kbd>⏎</kbd> to connect to ip address via ssh.
+
+<img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.gif">
 
 
 ## Contributions
