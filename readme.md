@@ -1,10 +1,11 @@
-<p align="center"><img src="icon.png" width="64"></p>
+<p align="center"><img src="icon.png" width="64" ></p>
 
-# alfred-show-network-info [<img src="https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master" alt="Build Status">](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
+# alfred-show-network-info 
+[![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
 > Alfred 3 workflow to see network info and discover local devices
 
-<img src="media/preview.png" width="888">
+<img src="media/preview.png" width="888" >
 
 
 ## Install
@@ -42,7 +43,7 @@ Repository: [https://github.com/jeppestaerk/alfred-show-network-stats](https://g
 
 ## To do
 
-- [x] Find better and more suitable icons
+- [x] ~~Find better and more suitable icons~~
 - [ ] Make a presentation gif for readme
 - [ ] Spread it to the public on alfred forums ect.
 - [ ] *Your idea here*
