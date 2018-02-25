@@ -372,7 +372,29 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string># alfred-show-network-info
+&gt; Alfred 3 workflow to see network info and discover local devices
+
+## Usage:
+In Alfred, type `ip4`, ⏎
+- press ⏎ to copy a ip address.
+- press ⌘ + ⏎ to open ip address in browser.
+- press ⌥ + ⏎ to connect to ip address via ssh.
+
+## Highlights:
+- See local-, public-, and gateway ip address.
+- Scan and list all devices on local network.
+- Copy ip to clipboard.
+- Open ip in browser.
+- Connect to ip via ssh.
+- Toggle functions via Workflow Variables.
+
+## Contributions:
+Please feel free to create a PR and/or make a code review!
+[GitHub Repository](https://github.com/jeppestaerk/alfred-show-network-info
+
+## License
+MIT © [Jeppe Stærk](https://staerk.io)</string>
 	<key>uidata</key>
 	<dict>
 		<key>5571A359-C2D3-4C6A-9ED7-DA4600F570F4</key>

@@ -46,9 +46,9 @@ Please feel free to create a PR and/or make a code review!
 ## To do
 
 - [x] ~~Find better and more suitable icons~~
+- [x] ~~Write workflow readme~~
+- [x] ~~Make a presentation gif for readme~~
 - [ ] Scan for open ports
-- [ ] Write workflow readme
-- [ ] Make a presentation gif for readme
 - [ ] Spread it to the public on alfred forums ect.
 - [ ] *Your idea here*
 
