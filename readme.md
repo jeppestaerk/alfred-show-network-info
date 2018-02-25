@@ -38,6 +38,7 @@ In Alfred, type `ip4`, <kbd>⏎</kbd>
 ## Contributions
 
 Please feel free to create a PR and/or make a code review!
+
 Repository: [https://github.com/jeppestaerk/alfred-show-network-stats](https://github.com/jeppestaerk/alfred-show-network-stats)
 
 
