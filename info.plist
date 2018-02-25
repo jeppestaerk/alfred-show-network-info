@@ -130,13 +130,28 @@
 	<key>createdby</key>
 	<string>Jeppe Stærk</string>
 	<key>description</key>
-	<string>Get your network information in Alfred</string>
+	<string>See network info and local devices</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>Show Network Info</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>soundname</key>
+				<string>Hero</string>
+				<key>systemsound</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.playsound</string>
+			<key>uid</key>
+			<string>CBC78470-CA30-4108-924E-B2C496328481</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -153,21 +168,6 @@
 			<string>C6DD40F6-DDD0-46EF-BEF9-0A218C721A13</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>soundname</key>
-				<string>Hero</string>
-				<key>systemsound</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.playsound</string>
-			<key>uid</key>
-			<string>CBC78470-CA30-4108-924E-B2C496328481</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -191,25 +191,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>F0C0C097-1E3E-4558-A2F9-2BCA43E3B7EE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -225,6 +206,25 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>6B0F37A8-6485-42E0-B2D6-A53E87F95113</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F0C0C097-1E3E-4558-A2F9-2BCA43E3B7EE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -261,7 +261,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>ip4</string>
+				<string>{var:keyword}</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -281,7 +281,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Get network info</string>
+				<string>Show network info</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -336,7 +336,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>tell application "Alfred 3" to search "ip4 {query}"</string>
+				<string>tell application "Alfred 3" to search "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -378,80 +378,99 @@
 		<key>5571A359-C2D3-4C6A-9ED7-DA4600F570F4</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>70</integer>
+			<integer>60</integer>
 		</dict>
 		<key>6B0F37A8-6485-42E0-B2D6-A53E87F95113</key>
 		<dict>
 			<key>xpos</key>
-			<integer>710</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>150</integer>
 		</dict>
 		<key>91DDB25C-122B-4621-94E8-9B03FB03C28B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>190</integer>
+			<integer>180</integer>
 		</dict>
 		<key>A9B3E216-F8D8-4908-A211-911869EFF136</key>
 		<dict>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>280</integer>
+			<integer>270</integer>
 		</dict>
 		<key>AC2E0486-FD82-46FB-984A-75D47FADA125</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>430</integer>
+			<integer>420</integer>
 		</dict>
 		<key>B8F1857C-E50E-4BFD-9484-B0454321C4E9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>220</integer>
+			<integer>210</integer>
 		</dict>
 		<key>B9A3A196-C2D4-4A36-902B-806DF7E99538</key>
 		<dict>
 			<key>xpos</key>
-			<integer>440</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>310</integer>
+			<integer>300</integer>
 		</dict>
 		<key>C6DD40F6-DDD0-46EF-BEF9-0A218C721A13</key>
 		<dict>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 		</dict>
 		<key>C90EEDAA-EA6F-4B55-8FFD-70E873F59F13</key>
 		<dict>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>400</integer>
+			<integer>390</integer>
 		</dict>
 		<key>CBC78470-CA30-4108-924E-B2C496328481</key>
 		<dict>
 			<key>xpos</key>
-			<integer>710</integer>
+			<integer>520</integer>
 			<key>ypos</key>
-			<integer>40</integer>
+			<integer>30</integer>
 		</dict>
 		<key>F0C0C097-1E3E-4558-A2F9-2BCA43E3B7EE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>340</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>150</integer>
 		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>keyword</key>
+		<string>ip4</string>
+		<key>show_actions</key>
+		<string>true</string>
+		<key>show_contribute</key>
+		<string>true</string>
+		<key>show_gateway</key>
+		<string>true</string>
+		<key>show_ipv6</key>
+		<string>true</string>
+		<key>show_local</key>
+		<string>true</string>
+		<key>show_public</key>
+		<string>true</string>
+		<key>show_scan</key>
+		<string>true</string>
 	</dict>
 	<key>version</key>
 	<string></string>

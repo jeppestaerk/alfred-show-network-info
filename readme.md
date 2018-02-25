@@ -1,6 +1,6 @@
 # alfred-show-network-info [![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
-> See your networks info in alfred
+> Alfred 3 workflow to see network info and local devices
 
 <img src="preview.png" width="888">
 
@@ -21,6 +21,7 @@ $ npm install --global alfred-show-network-info
 - Copy ip to clipboard.
 - Open ip in browser.
 - Connect to ip via ssh.
+- Toggle functions via Workflow Variables.
 
 
 ## Usage

@@ -1,7 +1,7 @@
 {
   "name": "alfred-show-network-info",
-  "version": "0.1.4",
-  "description": "See your networks info in alfred",
+  "version": "0.1.5",
+  "description": "Alfred 3 workflow to see network info and local devices",
   "license": "MIT",
   "repository": "jeppestaerk/alfred-show-network-stats",
   "author": {
@@ -26,9 +26,14 @@
   ],
   "keywords": [
     "alfred",
-    "workflow",
     "alfred-workflow",
-    "alfy"
+    "alfred3",
+    "alfred3-workflow",
+    "alfy",
+    "local-ip",
+    "public-ip",
+    "gateway-ip",
+    "local-devices-ip"
   ],
   "dependencies": {
     "alfy": "^0.6.0",
