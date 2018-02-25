@@ -2,7 +2,7 @@
 
 > Alfred 3 workflow to see network info and discover local devices
 
-[![Travis branch](https://img.shields.io/travis/jeppestaerk/alfred-show-network-info/master.svg)](https://travis-ci.org/jeppestaerk/alfred-show-network-info) [![npm](https://img.shields.io/npm/dt/alfred-show-network-info.svg)](https://www.npmjs.com/package/alfred-show-network-info)
+[![Travis branch](https://img.shields.io/travis/jeppestaerk/alfred-show-network-info/master.svg?style=flat-square&label=build%20status)](https://travis-ci.org/jeppestaerk/alfred-show-network-info) [![npm](https://img.shields.io/npm/dt/alfred-show-network-info.svg?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/alfred-show-network-info) [![Github All Releases](https://img.shields.io/github/downloads/jeppestaerk/alfred-show-network-info/total.svg?style=flat-square&label=github%20downloads)](https://github.com/jeppestaerk/alfred-show-network-info)
 
 <img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.png" width="888">
 
