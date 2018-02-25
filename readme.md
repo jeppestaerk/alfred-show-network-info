@@ -2,7 +2,7 @@
 
 > See your networks info in alfred
 
-![Preview](https://github.com/jeppestaerk/alfred-show-network-info/blob/master/preview.png)
+<img src="preview.png" width="600">
 
 
 ## Install
