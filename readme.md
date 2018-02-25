@@ -26,9 +26,9 @@ $ npm install --global alfred-show-network-info
 ## Usage
 
 In Alfred, type `ip4`, <kbd>Enter</kbd>
-- press <kbd>Enter</kbd> to copy a ip address.
-- press <kbd>Command</kbd> + <kbd>Enter</kbd> to open ip address in browser.
-- press <kbd>Option</kbd> + <kbd>Enter</kbd> to connect to ip address via ssh.
+- press <kbd>⏎</kbd> to copy a ip address.
+- press <kbd>⌘</kbd> + <kbd>⏎</kbd> to open ip address in browser.
+- press <kbd>⌥</kbd> + <kbd>⏎</kbd> to connect to ip address via ssh.
 
 
 ## Contributions
@@ -38,14 +38,9 @@ Please feel free to create a PR and/or make a code review!
 
 ## To do
 
-- Find better and more suitable icons
-  - local ip
-  - public ip
-  - gateway ip
-  - device ip
-  - workflow and options
-- Make a presentation gif for readme
-- Spread it to the public on alfred forums ect.
+- [ ] Find better and more suitable icons
+- [ ] Make a presentation gif for readme
+- [ ] Spread it to the public on alfred forums ect.
 
 
 ## Credits
