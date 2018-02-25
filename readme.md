@@ -1,4 +1,4 @@
-<p align="center"><img src="icon.png" witdh="64"/></p>
+<p align="center"><img src="icon.png" width="64"/></p>
 
 # alfred-show-network-info [![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
