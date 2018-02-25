@@ -1,8 +1,8 @@
-<p align="center"><img src="icon.png" /></p>
+<p align="center"><img src="icon.png" witdh="64"/></p>
 
 # alfred-show-network-info [![Build Status](https://travis-ci.org/jeppestaerk/alfred-show-network-info.svg?branch=master)](https://travis-ci.org/jeppestaerk/alfred-show-network-info)
 
-> Alfred 3 workflow to see network info and local devices
+> Alfred 3 workflow to see network info and discover local devices
 
 <img src="media/preview.png" width="888" />
 

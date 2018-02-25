@@ -72,9 +72,9 @@ if (alfy.input.split(" ")[0].toLowerCase() === 'ssh') {
 
 Promise.all(promises).then(() => {
 	if (!alfy.input) {
-		if (process.env['show_scan'] === 'true') addOutput('Scan for devices on local network', '', `${process.env['keyword']} scan`, 'Scan', 'rerun');
+		if (process.env['show_scan'] === 'true') addOutput('Discover devices on local network', '', `${process.env['keyword']} scan`, 'Scan', 'rerun');
 		if (process.env['show_ipv6'] === 'true') addOutput('See IPv6 network info', '', `${process.env['keyword']} IPv6`, 'IPv6', 'rerun');
-		if (process.env['show_contribute'] === 'true') addOutput('Contribute to this workflow', 'Development contributions are welcomed', 'https://github.com/jeppestaerk/alfred-show-network-info#contributions', 'Contribute', 'browser');
+		if (process.env['show_contribute'] === 'true') addOutput('Contribute to this workflow on GitHub', 'https://github.com/jeppestaerk/alfred-show-network-info', 'https://github.com/jeppestaerk/alfred-show-network-info#contributions', 'Contribute', 'browser');
 	}
 	alfy.output(output)
 });

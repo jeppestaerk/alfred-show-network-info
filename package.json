@@ -1,7 +1,7 @@
 {
   "name": "alfred-show-network-info",
-  "version": "0.1.6",
-  "description": "Alfred 3 workflow to see network info and local devices",
+  "version": "0.1.7",
+  "description": "Alfred 3 workflow to see network info and discover local devices",
   "license": "MIT",
   "repository": "jeppestaerk/alfred-show-network-stats",
   "author": {
