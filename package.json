@@ -34,7 +34,7 @@
     "network-discovery"
   ],
   "dependencies": {
-    "alfy": "^0.7.0",
+    "alfy": "^0.9.0",
     "default-gateway": "^2.7.0",
     "internal-ip": "^3.0.1",
     "local-devices": "^1.0.5",
