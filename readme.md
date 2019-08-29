@@ -1,6 +1,6 @@
 # alfred-show-network-info 
 
-> Alfred 3 workflow to see network info and discover local devices
+> Alfred 4 workflow to see network info and discover local devices
 
 [![Travis](https://img.shields.io/travis/jeppestaerk/alfred-show-network-info/master.svg?style=flat-square&label=build%20status)](https://travis-ci.org/jeppestaerk/alfred-show-network-info) [![npm](https://img.shields.io/npm/dt/alfred-show-network-info.svg?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/alfred-show-network-info) [![Github](https://img.shields.io/github/downloads/jeppestaerk/alfred-show-network-info/total.svg?style=flat-square&label=github%20downloads)](https://github.com/jeppestaerk/alfred-show-network-info/releases/latest)
 
@@ -15,7 +15,7 @@ $ npm install --global alfred-show-network-info
 ```
 or download `alfredworkflow` file from [releases](https://github.com/jeppestaerk/alfred-show-network-info/releases/latest)
 
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 
 ## Highlights
