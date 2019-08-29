@@ -58,8 +58,8 @@ Please feel free to create a PR and/or make a code review!
 
 ### Contributors
 
-- Vincent Klaiber (@vinkla)
-- Jeff Byrnes (@jeffbyrnes)
+- Vincent Klaiber ([@vinkla](https://github.com/vinkla))
+- Jeff Byrnes ([@jeffbyrnes](https://github.com/jeffbyrnes))
 
 ### Modules
 
