@@ -48,12 +48,18 @@ Please feel free to create a PR and/or make a code review!
 - [x] ~~Find better and more suitable icons~~
 - [x] ~~Write workflow readme~~
 - [x] ~~Make a presentation gif for readme~~
+- [x] ~~Update to work with Alfred 4~~
 - [ ] Scan for open ports
 - [ ] Spread it to the public on alfred forums ect.
 - [ ] *Your idea here*
 
 
 ## Credits
+
+### Contributors
+
+- Vincent Klaiber (@vinkla)
+- Jeff Byrnes (@jeffbyrnes)
 
 ### Modules
 
