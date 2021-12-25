@@ -1,6 +1,6 @@
 {
   "name": "alfred-show-network-info",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "Alfred 4 Workflow - See network info and discover local devices",
   "license": "MIT",
   "repository": "jeppestaerk/alfred-show-network-info",
@@ -9,9 +9,8 @@
     "email": "dev@staerk.io",
     "url": "https://github.com/jeppestaerk/alfred-show-network-info"
   },
-  "engines": {
-    "node": ">=8"
-  },
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
@@ -33,12 +32,15 @@
     "gateway-ip",
     "network-discovery"
   ],
+  "engines": {
+    "node": ">=14.13.1"
+  },
   "dependencies": {
-    "alfy": "^0.9.0",
-    "default-gateway": "^5.0.3",
-    "internal-ip": "^4.3.0",
-    "local-devices": "^2.0.0",
-    "public-ip": "^3.2.0"
+    "alfy": "^0.12.2",
+    "default-gateway": "^6.0.3",
+    "internal-ip": "^7.0.0",
+    "local-devices": "^3.2.0",
+    "public-ip": "^4.0.4"
   },
   "devDependencies": {}
 }
