@@ -10,12 +10,12 @@
 ## Install
 
 Use `npm`
+```sh
+npm install --global alfred-show-network-info
 ```
-$ npm install --global alfred-show-network-info
-```
-or download `alfredworkflow` file from [releases](https://github.com/jeppestaerk/alfred-show-network-info/releases/latest)
+or download `alfredworkflow` file from [releases](https://github.com/jeppestaerk/alfred-show-network-info/releases/latest).
 
-*Requires [Node.js](https://nodejs.org) 8+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+*Requires [Node.js](https://nodejs.org) and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
 
 ## Highlights
