@@ -41,6 +41,13 @@ function addIPOutput(type, ip, name, mac) {
 				variables: {
 					action: 'rerun'
 				}
+			},
+			fn: {
+				subtitle: 'Copy Mac Address',
+				arg: `${mac}`,
+				variables: {
+					action: 'copy'
+				}
 			}
 		},
 		icon: {
