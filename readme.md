@@ -34,6 +34,7 @@ In Alfred, type `ip4`, <kbd>⏎</kbd>
 - press <kbd>⏎</kbd> to copy a ip address.
 - press <kbd>⌘</kbd> + <kbd>⏎</kbd> to open ip address in browser.
 - press <kbd>⌥</kbd> + <kbd>⏎</kbd> to connect to ip address via ssh.
+- press <kbd>fn</kbd> to copy a MAC address.
 
 <img src="https://raw.githubusercontent.com/jeppestaerk/alfred-show-network-info/master/preview.gif">
 
