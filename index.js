@@ -1,5 +1,5 @@
 'use strict';
-import publicIp from "public-ip";
+import { publicIp, publicIpv4, publicIpv6 } from 'public-ip';
 import alfy from 'alfy';
 import findLocalDevices from "local-devices";
 import defaultGateway from "default-gateway";
@@ -61,11 +61,11 @@ if (alfy.input.split(" ")[0].toLowerCase() === 'ssh') {
 } else if (alfy.input.toLowerCase() === 'scan') {
 	promises.push(findLocalDevices().then(devices => devices.forEach(device => addIPOutput('Device', device.ip, device.name, device.mac))).catch(() => addIPOutput('No local devices found', 'Local')));
 } else if (alfy.input.toLowerCase() === 'ipv6') {
-	if (process.env['show_public'] === 'true') promises.push(publicIp.v6().then(ip => addIPOutput('Public', ip, '', '')).catch(() => addIPOutput('Public', 'IPv6 not found', '', '')));
+	if (process.env['show_public'] === 'true') promises.push(publicIpv6().then(ip => addIPOutput('Public', ip, '', '')).catch(() => addIPOutput('Public', 'IPv6 not found', '', '')));
 	if (process.env['show_local'] === 'true') promises.push(internalIpV6().then(ip => addIPOutput('Internal', ip, '', '')).catch(() => addIPOutput('Internal', 'IPv6 not found', '', '')));
 	if (process.env['show_gateway'] === 'true') promises.push(defaultGateway.v6().then(ip => addIPOutput('Gateway', ip.gateway, '', '')).catch(() => addIPOutput('Gateway', 'IPv6 not found', '', '')));
 } else {
-	if (process.env['show_public'] === 'true') promises.push(publicIp.v4().then(ip => addIPOutput('Public', ip, '', '')).catch(() => addIPOutput('Public', 'IPv4 not found', '', '')));
+	if (process.env['show_public'] === 'true') promises.push(publicIpv4().then(ip => addIPOutput('Public', ip, '', '')).catch(() => addIPOutput('Public', 'IPv4 not found', '', '')));
 	if (process.env['show_local'] === 'true') promises.push(internalIpV4().then(ip => addIPOutput('Internal', ip, '', '')).catch(() => addIPOutput('Internal', 'IPv4 not found', '', '')));
 	if (process.env['show_gateway'] === 'true') promises.push(defaultGateway.v4().then(ip => addIPOutput('Gateway', ip.gateway, '', '')).catch(() => addIPOutput('Gateway', 'IPv4 not found', '', '')));
 }
