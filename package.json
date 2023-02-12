@@ -36,11 +36,11 @@
     "node": ">=14.13.1"
   },
   "dependencies": {
-    "alfy": "^0.12.2",
+    "alfy": "^1.1.0",
     "default-gateway": "^6.0.3",
     "internal-ip": "^7.0.0",
     "local-devices": "^3.2.0",
-    "public-ip": "^4.0.4"
+    "public-ip": "^6.0.1"
   },
   "devDependencies": {}
 }
